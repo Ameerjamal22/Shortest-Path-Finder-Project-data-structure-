@@ -14,19 +14,8 @@ To compile and run the program, you need the following:
 - A terminal or command prompt
 - The "cities.txt" file containing city data
 
-### Compilation
+### Features
 
-Use the following command to compile the program:
-
-```bash
-gcc main.c -o shortest_path_finder
-Running the Program
-After compiling, run the program with this command:
-
-bash
-Copy code
-./shortest_path_finder
-Features
 Load Data from File: Load city data from the "cities.txt" file to construct the graph.
 Enter Source: Allow the user to input the source city.
 Enter Destination: Allow the user to input the destination city.
@@ -87,3 +76,17 @@ Cairo Alexandria 208
 Cairo Giza 15
 Alexandria Giza 220
 ...
+
+### Compilation
+
+Use the following command to compile the program:
+
+```bash
+gcc main.c -o shortest_path_finder
+Running the Program
+After compiling, run the program with this command:
+
+bash
+Copy code
+./shortest_path_finder
+
